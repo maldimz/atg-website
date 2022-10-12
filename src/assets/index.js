@@ -1,5 +1,5 @@
-// import Header from "./Header/Header";
+import Logo from "./img/logo.png";
 
-// export{
-//     Header,
-// }
+export{
+    Logo
+}
