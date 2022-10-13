@@ -16,15 +16,13 @@ function App() {
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Routes>
-            <Route exact path={navLinks[0].path} element={<Homepage />} />
-            <Route path={navLinks[1].path} element={navLinks[1].title} />
-            <Route path={navLinks[2].path} element={navLinks[2].title} />
-          </Routes>
-        </div>
-      </div>
+
+      <Routes>
+        <Route exact path={navLinks[0].path} element={<Homepage />} />
+        <Route path={navLinks[1].path} element={navLinks[1].title} />
+        <Route path={navLinks[2].path} element={navLinks[2].title} />
+      </Routes>
+
     </Router>
   );
 }

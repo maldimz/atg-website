@@ -1,5 +1,4 @@
-import Homepage from "./Homepage"
-
+import Homepage from "./Homepage/Homepage"
 
 
 export{
