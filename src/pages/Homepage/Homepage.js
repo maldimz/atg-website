@@ -1,6 +1,7 @@
 import styles from '../../constant/style';
 import Description from './Description';
 import Hero from './Hero';
+import Promotion from './Promotion';
 
 const Homepage = () => {
   return (
@@ -11,13 +12,17 @@ const Homepage = () => {
         </div>
       </div>
       <div className='w-full bg-primary'>
-        <div className={`${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxContent}`}>
-            <Description />
-          </div>
-        </div>
+        <Description />
       </div>
 
+      <div className='w-full bg-atgblack'>
+        <div className={`${styles.paddingX} ${styles.flexStart}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Promotion />
+          </div>
+        </div>
+
+      </div>
     </>
 
   )
