@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header } from "./components";
+import { Footer, Header } from "./components";
 import navLinks from "./constant/navLinks";
 import styles from "./constant/style";
 import { Homepage } from "./pages";
@@ -23,6 +23,13 @@ function App() {
         <Route path={navLinks[2].path} element={navLinks[2].title} />
       </Routes>
 
+      <div className="w-full overflow-hidden">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Footer />
+          </div>
+        </div>
+      </div>
     </Router>
   );
 }
