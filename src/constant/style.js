@@ -1,6 +1,6 @@
 const styles = {
   //1140
-    boxWidth: "xl:max-w-[1440px] w-full",
+    boxWidth: "xl:max-w-[1140px] w-full",
     boxContent: "xl:max-w-[1440px] w-full",
 
     btnOrange: "bg-primary rounded-full w-[200px] h-[60px] text-white font-semibold hover:bg-white hover:text-primary hover:scale-110 ease-in-out duration-300",
@@ -14,12 +14,13 @@ const styles = {
     flexStart: "flex justify-center items-start",
 
   
-    heroPadding: "sm:py-[100px] py-6",
+    heroPadding: "sm:py-[100px] py-16",
     descriptionPadding: "sm:pt-[200px] py-16",
     promotionPadding: "sm:py-[120px] py-16",
     footerPaddingY: "sm:py-[80px] py-16",
-    servicesPadding: "sm:py-[100px] PY-16",
+    servicesPadding: "sm:py-[100px] py-16",
  
+    paddingContentY: "sm:py-[100px] py-16",
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
     padding: "sm:px-16 px-6 sm:py-12 py-4",

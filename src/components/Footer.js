@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Logo } from "../assets"
 import navLinks from "../constant/navLinks"
 import styles from "../constant/style"
-import {BsInstagram, BsWhatsapp} from "react-icons/bs"
+import { BsInstagram, BsWhatsapp } from "react-icons/bs"
 
 const Footer = () => {
     const footerData = [
@@ -41,6 +41,16 @@ const Footer = () => {
                     link: "#"
                 }
             ]
+        },
+        {
+            title: "Get in touch",
+            data: [
+                {
+                    name: "Help center",
+                    link: "#"
+                },
+                
+            ]
         }
     ]
     return (
@@ -64,13 +74,17 @@ const Footer = () => {
                         <h3 className="mb-[20px] font-semibold text-[18px]">Connect with us</h3>
                         <div className="flex">
                             <a href="/" target="blank" className="mr-[20px] cursor-pointer">
-                                <BsInstagram size={25} className="transition duration-300 ease-in-out hover:scale-110"/>
+                                <BsInstagram size={25} className={`${FooterStyle.animationIcons}`} />
                             </a>
-                            <a href="/" target="blank"  className="cursor-pointer">
-                                <BsWhatsapp size={25} className="transition duration-300 ease-in-out hover:scale-110"/>
+                            <a href="/" target="blank" className="cursor-pointer">
+                                <BsWhatsapp size={25} className={`${FooterStyle.animationIcons}`} />
                             </a>
                         </div>
                     </div>
+                </div>
+                <hr className="w-full my-5" />
+                <div className="flex items-center flex-col justify-start">
+                    <p className="p-0 m-0">&#169; 2022 PT Aio Tuku Group. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -79,5 +93,6 @@ const Footer = () => {
 
 const FooterStyle = {
     flexResponsive: "flex sm:items-start items-center sm:justify-start justify-center flex-col",
+    animationIcons: "transition duration-300 ease-in-out hover:scale-110"
 }
 export default Footer

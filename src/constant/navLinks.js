@@ -8,8 +8,8 @@ const navLinks = [
         title: "Features"
     },
     {
-        path: "/product",
-        title: "Product"
+        path: "/products",
+        title: "Products"
     }
 ]
 
