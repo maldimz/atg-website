@@ -23,8 +23,8 @@ const Footer = () => {
             title: "Join with us",
             data: [
                 {
-                    name: "Our mitra",
-                    link: "#mitra"
+                    name: "Contact",
+                    link: "/contact"
                 },
 
             ]
@@ -38,7 +38,7 @@ const Footer = () => {
                 },
                 {
                     name: "Our location",
-                    link: "#"
+                    link: "/contact"
                 }
             ]
         },

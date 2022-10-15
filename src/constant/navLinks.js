@@ -4,8 +4,8 @@ const navLinks = [
         title: "Home"
     },
     {
-        path: "/features",
-        title: "Features"
+        path: "/services",
+        title: "Services"
     },
     {
         path: "/products",

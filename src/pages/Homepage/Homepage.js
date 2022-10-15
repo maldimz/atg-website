@@ -1,5 +1,6 @@
 import styles from '../../constant/style';
 import Description from './Description';
+import Develop from './Develop';
 import Gallery from './Gallery';
 import Hero from './Hero';
 import Promotion from './Promotion';
@@ -8,7 +9,7 @@ import Services from './Services';
 const Homepage = () => {
   return (
     <>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -17,11 +18,13 @@ const Homepage = () => {
         <Description />
       </div>
 
-      <div className='w-full bg-primary'>
-        <div className={`${styles.paddingX} ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Services />
-          </div>
+      <div className='w-full'>
+        <Services />
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Develop />
         </div>
       </div>
 
@@ -35,7 +38,6 @@ const Homepage = () => {
             <Promotion />
           </div>
         </div>
-
       </div>
     </>
 

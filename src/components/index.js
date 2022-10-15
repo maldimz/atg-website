@@ -1,9 +1,13 @@
 import Header from "./Header";
 import MiniCard from "./MiniCard";
 import Footer from "./Footer";
+import SliderCard from "./SliderCard";
+import DeployCard from "./DeployCard";
 
 export{
     Header,
     MiniCard,
-    Footer
+    Footer,
+    SliderCard,
+    DeployCard
 }

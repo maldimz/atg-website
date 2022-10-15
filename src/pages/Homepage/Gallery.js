@@ -1,13 +1,12 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import { Pagination, Navigation } from "swiper"
+import { Swiper, SwiperSlide} from "swiper/react";
+import { Pagination } from "swiper"
 import { Autoplay } from "swiper";
 import { Service1, Service2, Service3 } from "../../assets";
 
 const Gallery = () => {
-    const swiper = useSwiper();
     const ServicesData = [
         {
             img: Service1,
@@ -32,16 +31,13 @@ const Gallery = () => {
                 pagination={{
                     clickable: true,
                 }}
-                navigation={{
-                    enabled: true
-                }}
                 spaceBetween={50}
                 slidesPerView={1}
                 autoplay={{
                     delay: 5000,
                     disableOnInteraction: false,
                 }}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Autoplay, Pagination]}
             >
                 {ServicesData.map((item, index) => (
                     <div key={index}>

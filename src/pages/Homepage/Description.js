@@ -1,12 +1,12 @@
 import React from 'react'
-import { Gombale } from '../../assets'
+import { Gombale, Soon } from '../../assets'
 import { MiniCard } from '../../components'
 import styles from '../../constant/style'
 
 const Description = () => {
     const mitras = [
         {
-            img: "",
+            img: Soon,
             name: "Your Business"
         },
         {
@@ -14,7 +14,7 @@ const Description = () => {
             name: "Gombale"
         },
         {
-            img: "",
+            img: Soon,
             name: "Your Business"
         },
     ]
@@ -34,7 +34,7 @@ const Description = () => {
                 <div className='flex flex-row z-[1]'>
                     {mitras.map((item, index) => (
                         <div key={index} className={`flex-1 ${index === mitras.length - 1 ? 'mr-0' : 'mr-[50px]'}`}>
-                            <MiniCard img={item.img} title={item.name} className="card-box-shadow"/>
+                            <MiniCard img={item.img} title={item.name} className="card-box-shadow" />
                         </div>
                     ))}
                 </div>
@@ -42,7 +42,7 @@ const Description = () => {
 
                 </div>
                 <div className={`absolute w-full h-[585px] bg-atgblack sm:rounded-t-[150px] rounded-t-[50px] z-[0] px-[125px] pt-[200px] ${styles.flexCenter} bottom-0`}>
-                    <p className='leading-[43px] text-center text-white text-[34px] font-semibold'>Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue.</p>
+                    <p className='leading-[43px] text-center text-white text-[34px] font-semibold'>Gombale is one of the subsidiaries under PT Aio Tuku Group, which is engaged in the production and sale of convection products.</p>
                 </div>
             </div>
         </>

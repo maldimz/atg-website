@@ -14,11 +14,9 @@ const styles = {
     flexStart: "flex justify-center items-start",
 
   
-    heroPadding: "sm:py-[100px] py-16",
     descriptionPadding: "sm:pt-[200px] py-16",
     promotionPadding: "sm:py-[120px] py-16",
     footerPaddingY: "sm:py-[80px] py-16",
-    servicesPadding: "sm:py-[100px] py-16",
  
     paddingContentY: "sm:py-[100px] py-16",
     paddingX: "sm:px-16 px-6",

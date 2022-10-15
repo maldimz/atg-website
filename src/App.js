@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer, Header } from "./components";
 import navLinks from "./constant/navLinks";
 import styles from "./constant/style";
-import { Homepage } from "./pages";
+import { Homepage, Services } from "./pages";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
       <Routes>
         <Route exact path={navLinks[0].path} element={<Homepage />} />
-        <Route path={navLinks[1].path} element={navLinks[1].title} />
+        <Route path={navLinks[1].path} element={<Services />} />
         <Route path={navLinks[2].path} element={navLinks[2].title} />
       </Routes>
 
