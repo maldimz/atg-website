@@ -22,7 +22,7 @@ const Hero = () => {
             }
         },
         {
-            title: "Contact Us",
+            title: "Our location",
             desc: [
                 {
                     icon: <IoLocationOutline size={16} />,
@@ -32,7 +32,7 @@ const Hero = () => {
         }
     ]
     return (
-        <div className="relative md:top-[-87px] w-full flex flex-col items-center py-[50px]">
+        <div className="relative  w-full flex flex-col items-center py-[50px]">
             <div className="border-solid border-2 border-primary rounded-full w-fit mb-7">
                 <h1 className="font-semibold text-primary text-[16px] py-2.5 px-6">Our contact and location</h1>
             </div>

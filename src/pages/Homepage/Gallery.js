@@ -43,7 +43,7 @@ const Gallery = () => {
                     <div key={index}>
                         <SwiperSlide>
                             <div className="flex">
-                                <img src={item.img} alt="img" className="h-[550px] w-full object-cover" />
+                                <img src={item.img} alt="img" className="sm:h-[550px] h-[350px] w-full object-cover" />
                             </div>
                         </SwiperSlide>
                     </div>

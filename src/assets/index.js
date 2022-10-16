@@ -19,6 +19,9 @@ import Card4Img from "./img/card4.png";
 import Card5Img from "./img/card5.png";
 import ProdukHero from "./img/productHero.png";
 import Soon2 from "./img/soon2.png";
+import Human from "./icon/human.png";
+import Marketing from "./icon/marketing.png";
+import Payment from "./icon/payment.png";
 
 export{
     Logo,
@@ -41,5 +44,8 @@ export{
     Card4Img,
     Card5Img,
     ProdukHero,
-    Soon2
+    Soon2,
+    Human,
+    Marketing,
+    Payment
 }

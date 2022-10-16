@@ -5,6 +5,7 @@ import Gallery from './Gallery';
 import Hero from './Hero';
 import Promotion from './Promotion';
 import Services from './Services';
+import Special from './Special';
 
 const Homepage = () => {
   return (
@@ -14,7 +15,9 @@ const Homepage = () => {
           <Hero />
         </div>
       </div>
-
+      <div className='w-full bg-atgBlack'>
+        <Special />
+      </div>
       <div className='w-full'>
         <Services />
       </div>

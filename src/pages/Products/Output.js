@@ -23,7 +23,7 @@ const Output = () => {
 
     return (
         <section>
-            <h2 className="font-semibold text-black text-[48px] text-center sm:mb-[50px] mb-6">Our products</h2>
+            <h2 className="font-semibold text-black sm:text-[48px] text-[38px] text-center sm:mb-[50px] mb-16">Our products</h2>
             {outputData.map((item, index)=>(
                 <div className={`${index === outputData.length - 1 ? 'mb-0' : 'mb-8'} hover:${styles.animateEaseInOut}`}>
                     <ProductsCard img={item.img} title={item.title} description={item.description}/>

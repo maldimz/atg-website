@@ -4,6 +4,8 @@ import Footer from "./Footer";
 import SliderCard from "./SliderCard";
 import DeployCard from "./DeployCard";
 import ProductsCard from "./ProductsCard";
+import SpecialCard from "./SpecialCard";
+
 
 export{
     Header,
@@ -11,5 +13,6 @@ export{
     Footer,
     SliderCard,
     DeployCard,
-    ProductsCard
+    ProductsCard,
+    SpecialCard
 }

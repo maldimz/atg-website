@@ -45,7 +45,7 @@ const Services = () => {
         </div>
       </div>
 
-      <section id="service" className='w-full bg-third rounded-t-[150px]'>
+      <section id="service" className='w-full bg-third sm:rounded-t-[100px] atgmd:rounded-t-[150px] rounded-t-[80px]'>
         <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
           <div className={`${styles.boxWidth}`}>
             <Card1
@@ -58,7 +58,7 @@ const Services = () => {
       </section>
 
       <section className="w-full bg-third">
-        <div className="w-full bg-secondary rounded-t-[150px]">
+        <div className="w-full bg-secondary sm:rounded-t-[100px] atgmd:rounded-t-[150px] rounded-t-[80px]">
           <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
             <div className={`${styles.boxWidth}`}>
               <Card2 img={servicesData.card2.img} 
@@ -71,7 +71,7 @@ const Services = () => {
       </section>
 
       <section className="w-full bg-secondary">
-        <div className="w-full bg-primary rounded-t-[150px]">
+        <div className="w-full bg-primary sm:rounded-t-[100px] atgmd:rounded-t-[150px] rounded-t-[80px]">
           <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
             <div className={`${styles.boxWidth}`}>
               <Card1 img={servicesData.card3.img} 
@@ -84,7 +84,7 @@ const Services = () => {
       </section>
 
       <section className="w-full bg-primary">
-        <div className="w-full bg-atgBrown rounded-t-[150px]">
+        <div className="w-full bg-atgBrown sm:rounded-t-[100px] atgmd:rounded-t-[150px] rounded-t-[80px]">
           <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
             <div className={`${styles.boxWidth}`}>
               <Card2 img={servicesData.card4.img} 
@@ -97,7 +97,7 @@ const Services = () => {
       </section>
 
       <section className="w-full bg-atgBrown">
-        <div className="w-full bg-atgBlack rounded-t-[150px]">
+        <div className="w-full bg-atgBlack sm:rounded-t-[100px] atgmd:rounded-t-[150px] rounded-t-[80px]">
           <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
             <div className={`${styles.boxWidth}`}>
               <Card1 img={servicesData.card5.img} 

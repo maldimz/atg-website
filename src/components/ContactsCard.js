@@ -2,7 +2,7 @@ import styles from "../constant/style"
 
 const ContactsCard = ({ title, desc, button }) => {
     return (
-        <div className="flex flex-col justify-between p-9 flex-1 md:h-[320px] border-solid border-primary border-2 rounded-[50px]">
+        <div className="flex flex-col justify-between p-9 flex-1 md:h-[320px] border-solid border-primary border-2 sm:rounded-[50px] rounded-[30px]">
             <div>
                 <h3 className="font-bold text-primary text-[36px] mb-6">{title}</h3>
                 <div>
@@ -18,7 +18,7 @@ const ContactsCard = ({ title, desc, button }) => {
             </div>
 
             {button ?
-                <div className="flex justify-center w-full">
+                <div className="flex justify-center w-full md:pt-0 pt-6">
                     <a href={button?.link} target="blank">
                         <button className={`${styles.btnOrange}`}>
                             {button?.title}

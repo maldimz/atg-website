@@ -23,10 +23,10 @@ const Develop = () => {
     ]
     return (
         <div className={`${styles.paddingContentY} ${styles.flexCenter} flex-col`}>
-            <h2 className="font-bold text-black text-[48px] text-center sm:mb-[50px] mb-6">PT Aio Tuku Group Development</h2>
-            <div className="flex sm:flex-row flex-col">
+            <h2 className="font-bold text-black sm:text-[48px] text-[38px] text-center sm:mb-[50px] mb-6">PT Aio Tuku Group Development</h2>
+            <div className="flex flex-wrap gap-6 justify-center ">
                 {developData.map((item, index) => (
-                    <div key={index} className={`${index === developData.length - 1 ? 'mr-0': 'mr-6'}`}>
+                    <div key={index}>
                         <DeployCard img={item.img} title={item.title}/>
                     </div>
                 ))}

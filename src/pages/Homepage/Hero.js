@@ -1,15 +1,13 @@
 import { HeroImg } from '../../assets'
-import styles from '../../constant/style'
 
 const Hero = () => {
   return (
-    <div className={`relative top-[-87px] flex md:flex-row flex-col sm:py-16 py-[100px] h-screen`}>
-      <h1 className="max-w-[600px] font-bold text-[60px] flex-1 z-[1]">
+    <div className={`relative flex md:flex-row flex-col md:py-[100px] py-10 h-screen`}>
+      <h1 className="max-w-[600px] font-bold md:text-[60px] text-[48px] z-[1]">
         PT Aio Tuku Group, help you create excellent business.
       </h1>
-
       <div>
-        <img src={HeroImg} alt="hero" className="absolute w-[685px] right-0 z-[0] flex-1"/>
+        <img src={HeroImg} alt="hero" className="md:absolute md:w-[685px] md:right-0 md:pt-0 pt-8 z-[0]"/>
       </div>
     </div>
   )

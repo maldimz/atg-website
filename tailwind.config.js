@@ -27,14 +27,17 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
     },
-    // screens: {
-    //   xs: "480px",
-    //   ss: "620px",
-    //   sm: "768px",
-    //   md: "1060px",
-    //   lg: "1200px",
-    //   xl: "1700px",
-    // },
+    screens: {
+      xs: "480px",
+      ss: "576px",
+      sm: "640px",
+      md: "768px",
+      atgmd: "800px",
+      atgmds: "925px",
+      lg: "1024px",
+      xl: "1280px",
+      atglg: "1150px"
+    },
   },
   plugins: [],
 };
