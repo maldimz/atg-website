@@ -14,9 +14,6 @@ const Homepage = () => {
           <Hero />
         </div>
       </div>
-      <div className='w-full bg-gradient-orange'>
-        <Description />
-      </div>
 
       <div className='w-full'>
         <Services />
@@ -27,12 +24,15 @@ const Homepage = () => {
           <Develop />
         </div>
       </div>
+      <div className='w-full bg-gradient-orange'>
+        <Description />
+      </div>
 
       <div className='w-full'>
         <Gallery />
       </div>
 
-      <div className='w-full bg-atgblack'>
+      <div className='w-full bg-atgBlack'>
         <div className={`${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Promotion />

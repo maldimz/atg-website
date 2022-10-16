@@ -14,9 +14,12 @@ const styles = {
     flexStart: "flex justify-center items-start",
 
   
+    servicesHeroPaddingY: "sm:py[158px] py-16",
+    serviceCardPaddingY: "sm:pt[130px] pt-16",
     descriptionPadding: "sm:pt-[200px] py-16",
     promotionPadding: "sm:py-[120px] py-16",
     footerPaddingY: "sm:py-[80px] py-16",
+    
  
     paddingContentY: "sm:py-[100px] py-16",
     paddingX: "sm:px-16 px-6",
@@ -25,6 +28,8 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    animateEaseInOut: "scale-110 ease-in-out duration-300",
   };
   
   export const layout = {

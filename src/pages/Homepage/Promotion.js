@@ -4,7 +4,7 @@ const Promotion = () => {
     return (
         <div className={`flex md:flex-row flex-col ${styles.promotionPadding} justify-between items-center`}>
             <div>
-                <h2 className="text-white font-semibold text-[48px]">Let start your business with us!!</h2>
+                <h2 className="text-white font-semibold text-[48px]">Let start your business with us!</h2>
                 <p className="text-white font-semibold text-[16px]">Everything you need to know and grow your business anywhere on the planet.</p>
             </div>
             <div>

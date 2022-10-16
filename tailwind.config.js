@@ -18,8 +18,10 @@ module.exports = {
       colors: {
         primary: "#F08300",
         secondary: "#EDB458",
-        atgblack: "#1C1B17",
+        third: "#F1CD93",
+        atgBlack: "#1C1B17",
         atgCream: "#E6D6B9",
+        atgBrown: "#9B5500"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

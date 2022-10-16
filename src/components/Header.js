@@ -44,11 +44,11 @@ const Header = () => {
                 </ul>
             </nav>
 
-            <div className={`${styles.boxWidth} z-[2] md:flex hidden flex-row-reverse transition duration-300 ease-in-out ${lngState ? 'visible opacity-1' : 'invisible opacity-0'}`}>
+            <div className={`${styles.boxWidth} relative h-[87px] z-[2] md:flex hidden flex-row-reverse transition duration-300 ease-in-out ${lngState ? 'visible opacity-1' : 'invisible opacity-0'}`}>
                 <div className='w-[170px] h-[87px] bg-primary rounded-[20px] p-4 absolute'>
                     {language.map((item, index) => (
                         <p
-                            className='text-[16px] text-white font-semibold cursor-pointer hover:underline underline-offset-4'
+                            className='z-[3] text-[16px] text-white font-semibold cursor-pointer hover:underline underline-offset-4'
                             key={index}
                         >
                             {item.name}

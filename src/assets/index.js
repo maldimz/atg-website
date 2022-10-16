@@ -11,6 +11,14 @@ import IconPartner from "./icon/partner.png";
 import IconGarment from "./icon/garment.png";
 import IconMaintenance from "./icon/maintenance.png";
 import IconTeam from "./icon/team.png";
+import Logo2 from "./img/logo2.png";
+import Card1Img from "./img/card1.png";
+import Card2Img from "./img/card2.png";
+import Card3Img from "./img/card3.png";
+import Card4Img from "./img/card4.png";
+import Card5Img from "./img/card5.png";
+import ProdukHero from "./img/productHero.png";
+import Soon2 from "./img/soon2.png";
 
 export{
     Logo,
@@ -25,5 +33,13 @@ export{
     IconMaintenance,
     IconPartner,
     IconTeam,
-    Soon
+    Soon,
+    Logo2,
+    Card1Img,
+    Card2Img,
+    Card3Img,
+    Card4Img,
+    Card5Img,
+    ProdukHero,
+    Soon2
 }

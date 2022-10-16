@@ -42,16 +42,6 @@ const Footer = () => {
                 }
             ]
         },
-        {
-            title: "Get in touch",
-            data: [
-                {
-                    name: "Help center",
-                    link: "#"
-                },
-                
-            ]
-        }
     ]
     return (
         <div className={`${styles.footerPaddingY}`}>
