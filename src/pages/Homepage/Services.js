@@ -1,40 +1,42 @@
+import { useTranslation } from "react-i18next";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Service1, Service2, Service3, Service4 } from "../../assets"
 import { SliderCard } from "../../components"
 
 const Services = () => {
+    const {t} = useTranslation();
     const servicesData = [
         {
-            title: "Service provider and business apparel consultant",
+            title: t("homepage-services-card1-title"),
             img: Service2,
-            description: "We provide both in terms of business and technical!",
+            description: t("homepage-services-card1-desc"),
         },
         {
-            title: "Manual and Digital Print (DTF) training",
+            title: t("homepage-services-card2-title"),
             img: Service4,
-            description: "We train in aspects of layout, design, also machining and production",
+            description: t("homepage-services-card2-desc"),
         },
         {
-            title: "Brand preparation and development consultant",
+            title: t("homepage-services-card3-title"),
             img: Service2,
-            description: "We provide consulting services to prepare brands and brand development.",
+            description: t("homepage-services-card3-desc"),
         },
         {
-            title: "System development and brand administration tools",
+            title: t("homepage-services-card4-title"),
             img: Service3,
-            description: "We provide these services both business and technical side!",
+            description: t("homepage-services-card4-desc"),
         },
         {
-            title: "Product services to be sold as a brand",
+            title: t("homepage-services-card5-title"),
             img: Service1,
-            description: "We provide t-shirts, totebags, hoodies, shirts, mugs, and various other merchandise!",
+            description: t("homepage-services-card5-desc"),
         },
     ]
     return (
         <div className={`flex flex-col sm:pb-[100px] py-6 md:px-0 px-1`}>
             <div>
-                <h2 className="font-bold text-black sm:text-[48px] text-[38px] text-center sm:mb-[50px] mb-6">Our Services</h2>
+                <h2 className="font-bold text-black sm:text-[48px] text-[38px] text-center sm:mb-[50px] mb-6">{t("homepage-services-title")}</h2>
             </div>
             <div>
                 <Swiper

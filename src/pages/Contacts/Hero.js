@@ -1,11 +1,14 @@
 import ContactsCard from "../../components/ContactsCard"
 import {FiPhoneCall, FiMail} from "react-icons/fi"
 import {IoLocationOutline} from "react-icons/io5"
+import { useTranslation } from "react-i18next"
+import { WA } from "../../constant/config"
 
 const Hero = () => {
+    const {t} = useTranslation();
     const contactsData = [
         {
-            title: "Contact Us",
+            title: t("contacts-card1-title"),
             desc: [
                 {
                     icon: <FiMail size={16}/>,
@@ -18,11 +21,11 @@ const Hero = () => {
             ],
             button: {
                 title: "Whatsapp",
-                link: "wa"
+                link: WA
             }
         },
         {
-            title: "Our location",
+            title: t("contacts-card2-title"),
             desc: [
                 {
                     icon: <IoLocationOutline size={16} />,
@@ -34,10 +37,10 @@ const Hero = () => {
     return (
         <div className="relative  w-full flex flex-col items-center py-[50px]">
             <div className="border-solid border-2 border-primary rounded-full w-fit mb-7">
-                <h1 className="font-semibold text-primary text-[16px] py-2.5 px-6">Our contact and location</h1>
+                <h1 className="font-semibold text-primary text-[16px] py-2.5 px-6">{t("contacts-hero-head")}</h1>
             </div>
-            <h2 className="max-w-[545px] font-bold text-black text-[48px] text-center leading-[58px]">Get in touch with us for  more information</h2>
-            <p className="font-medium text-black text-[16px] text-center my-7">If you need help or have question, we’re here for you</p>
+            <h2 className="max-w-[545px] font-bold text-black text-[48px] text-center leading-[58px]">{t("contacts-hero-title")}</h2>
+            <p className="font-medium text-black text-[16px] text-center my-7">{t("contacts-hero-desc")}</p>
             <div className="flex gap-6 md:flex-row flex-col w-full">
                 {contactsData.map((item, index) => (
                     <ContactsCard key={index} title={item.title} button={item.button} desc={item.desc} />

@@ -1,16 +1,19 @@
+import { useTranslation } from "react-i18next"
+import { WA } from "../../constant/config";
 import styles from "../../constant/style"
 
 const Promotion = () => {
+    const {t} = useTranslation();
     return (
         <div className={`flex md:flex-row flex-col ${styles.promotionPadding} justify-between items-center`}>
             <div>
-                <h2 className="text-white font-semibold sm:text-[48px] text-[38px]">Let start your business with us!</h2>
-                <p className="text-white font-medium text-[16px] md:py-0 py-2">Everything you need to know and grow your business anywhere on the planet.</p>
+                <h2 className="text-white font-semibold sm:text-[48px] text-[38px]">{t("homepage-promotion-title")}</h2>
+                <p className="text-white font-medium text-[16px] md:py-0 py-2">{t("homepage-promotion-desc")}</p>
             </div>
             <div className="md:pt-0 pt-5">
-                <a href="www.google.com">
+                <a href={WA} target="blank">
                     <button className={`${styles.btnOrange} ${pStyle.button}`}>
-                        Whatsapp
+                        {t("homepage-promotion-btn")}
                     </button>
                 </a>
             </div>

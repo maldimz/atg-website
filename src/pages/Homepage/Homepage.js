@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
+import navLinks from '../../constant/navLinks';
 import styles from '../../constant/style';
 import Description from './Description';
 import Develop from './Develop';
@@ -8,8 +12,19 @@ import Services from './Services';
 import Special from './Special';
 
 const Homepage = () => {
+  const {t} = useTranslation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+      <Helmet>
+        <title>Aio Tuku Group - {t("header-home")}</title>
+        <meta
+          name="description"
+          content="PT Aio Tuku Group menyediakan jasa konsultan dan pengembangan sebuah industri seperti mulai dari persiapan hingga pengembangan brand. Butuh sesuatu untuk bisnis Anda? Kami siap membantu!" />
+        <link rel="canonical" href={navLinks[0].path} />
+      </Helmet>
       <div className={`${styles.paddingX} ${styles.flexStart} z-[1]`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />

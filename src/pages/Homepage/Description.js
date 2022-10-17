@@ -1,24 +1,26 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Gombale, Soon } from '../../assets'
 import { MiniCard } from '../../components'
+import { WA } from '../../constant/config'
 import styles from '../../constant/style'
 
 const Description = () => {
+    const {t} = useTranslation();
     const mitras = [
         {
             img: Soon,
-            name: "Your Business",
+            name: t("homepage-desc-card1"),
             order: "order-2"
         },
         {
             img: Gombale,
-            name: "Gombale",
+            name: t("homepage-desc-card2"),
             order: "order-3"
         },
         {
             img: Soon,
-            name: "Your Business",
+            name: t("homepage-desc-card3"),
             order: "order-1"
         },
     ]
@@ -29,7 +31,7 @@ const Description = () => {
                 <div className={`${styles.boxContent}`}>
                     <div className={`${styles.flexCenter} ${styles.descriptionPadding}`}>
                         <h2 className='font-bold max-w-[633px] sm:text-[48px] text-[38px] text-center text-black leading-[58px]'>
-                            We’re PT Aio Tuku Group, and these are our products
+                           {t("homepage-desc-title")}
                         </h2>
                     </div>
                 </div>
@@ -46,8 +48,8 @@ const Description = () => {
 
                 </div>
                 <div className={`flex flex-col items-end justify-end absolute w-full h-[585px] bg-atgBlack sm:rounded-t-[150px] rounded-t-[50px] z-[0] bottom-0 p-5`}>
-                    <p className='leading-[43px] text-center text-white sm:text-[28px] atgmd:text-[34px] text-[20px] font-semibold w-full'>Gombale is one of the subsidiaries under PT Aio Tuku Group, which is engaged in the production and sale of convection products.</p>
-                    <Link className='w-full flex items-center justify-center sm:p-[60px] p-8'><button className={`${styles.btnOrange}`}>Join us!</button></Link>
+                    <p className='leading-[43px] text-center text-white sm:text-[28px] atgmd:text-[34px] text-[20px] font-semibold w-full'>{t("homepage-desc-desc")}</p>
+                    <a href={WA} target="blank" className='w-full flex items-center justify-center sm:p-[60px] p-8'><button className={`${styles.btnOrange}`}>{t("homepage-desc-btn")}</button></a>
                 </div>
             </div>
         </>

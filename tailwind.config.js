@@ -35,6 +35,7 @@ module.exports = {
       atgmd: "800px",
       atgmds: "925px",
       lg: "1024px",
+      atglg: "1140px",
       xl: "1280px",
       atglg: "1150px"
     },
