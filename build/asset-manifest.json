@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1aa24724.css",
+    "main.js": "/static/js/main.15edf2fa.js",
+    "static/js/787.97aae3b6.chunk.js": "/static/js/787.97aae3b6.chunk.js",
+    "static/media/productHero.png": "/static/media/productHero.8f24053911d5c43a2d77.png",
+    "static/media/service4.png": "/static/media/service4.07c7aa3630637e53cda4.png",
+    "static/media/service3.png": "/static/media/service3.bbc991bd4b5e5b215bd2.png",
+    "static/media/service1.jpg": "/static/media/service1.e55329b55fc86e93122e.jpg",
+    "static/media/service2.jpg": "/static/media/service2.af497332c0b6a24288c7.jpg",
+    "static/media/card1.png": "/static/media/card1.60fbf4cd60609af2aef0.png",
+    "static/media/card2.png": "/static/media/card2.17e1b63f08a0dbed04af.png",
+    "static/media/card5.png": "/static/media/card5.80d501e0dc947ba72c16.png",
+    "static/media/hero.png": "/static/media/hero.140fa1ef9d683650eaa9.png",
+    "static/media/card3.png": "/static/media/card3.689d635cd7f068ace1a2.png",
+    "static/media/logo2.png": "/static/media/logo2.01981c5261392956fa7f.png",
+    "static/media/card4.png": "/static/media/card4.1f0d7b0ef6dc7e246280.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.1aa24724.css.map": "/static/css/main.1aa24724.css.map",
+    "main.15edf2fa.js.map": "/static/js/main.15edf2fa.js.map",
+    "787.97aae3b6.chunk.js.map": "/static/js/787.97aae3b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa24724.css",
+    "static/js/main.15edf2fa.js"
+  ]
+}
