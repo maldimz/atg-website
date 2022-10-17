@@ -1,4 +1,4 @@
-const WA = "http://wa.me/+62089635029193"
+const WA = "http://wa.me/+6281215054028"
 
 // eslint-disable-next-lin
 export {
